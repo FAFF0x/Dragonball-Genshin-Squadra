@@ -1,10 +1,9 @@
 import React from 'react';
 import { Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Tooltip } from 'recharts';
-import { Zap, Shield, Sword, Flame } from 'lucide-react';
+import { Zap, Shield, Flame } from 'lucide-react';
 
 // Color constants
 const SSJ4_RED = '#be123c';
-const SSJ4_BG = '#1a0505';
 
 const dataRadar = [
   { subject: 'ATK', A: 120, fullMark: 150 },
